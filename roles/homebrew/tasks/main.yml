@@ -16,8 +16,10 @@
     - awscli
     - docker
     - docker-compose
+    - ghq
     - git
     - jq
+    - peco
     - reattach-to-user-namespace
     - telnet
     - tmux
