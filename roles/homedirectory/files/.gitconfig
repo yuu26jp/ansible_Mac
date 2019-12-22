@@ -1,26 +1,3 @@
 [user]
-	name = RVIRUS0817
-	email = t.virus.1989@gmail.com
-
-[color]
-	ui = auto
-
-[alias]
-    g  = git
-    st = status
-    ss = status -s
-    sh = show
-    ch = checkout
-    br = branch
-    co = commit
-    pu = push
-
-[ghq]
-  root = ~/git/RVIRUS0817
-  root = ~/git/RVIRUS0817-bitbucket
-  root = ~/git/RVIRUS0817-gitlab
-  root = ~/git/lancers
-  root = ~/git/shirasud
-
-[commit]
-  template = ~/.commit_template
+    name = yuu26jp
+    email = 24243541+yuu26jp@users.noreply.github.com
