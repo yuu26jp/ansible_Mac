@@ -3,4 +3,4 @@
   roles:
     - homebrew
     - homebrew-cask
-    - homedirectory
+    - dotfiles
