@@ -4,6 +4,7 @@
     src: "{{ item.src }}"
     dest: "{{ item.dest }}"
   with_items:
+    - { src: roles/dotfiles/files/.config, dest: ~/ }
     - { src: roles/dotfiles/files/.gitconfig, dest: ~/ }
     - { src: roles/dotfiles/files/.tmux.conf, dest: ~/ }
     - { src: roles/dotfiles/files/.vimrc, dest: ~/ }
