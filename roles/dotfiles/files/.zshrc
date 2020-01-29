@@ -1,4 +1,5 @@
 alias g='git'
+alias gs='git switch'
 alias gpl='git pull'
 alias gps='git push origin'
 alias glog='git log --oneline | head'
