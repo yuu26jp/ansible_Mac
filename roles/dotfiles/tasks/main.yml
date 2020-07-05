@@ -1,11 +1,11 @@
-- name: Copy Dot Files.1
+- name: Copy Dot Files
   tags: dotfiles
   copy:
     src: "{{ item.src }}"
     dest: "{{ item.dest }}"
   with_items:
-    - { src: roles/dotfiles/files/.config, dest: ~/ }
-    - { src: roles/dotfiles/files/.gitconfig, dest: ~/ }
-    - { src: roles/dotfiles/files/.tmux.conf, dest: ~/ }
-    - { src: roles/dotfiles/files/.vimrc, dest: ~/ }
-    - { src: roles/dotfiles/files/.zshrc, dest: ~/ }
+    - { src: .config, dest: ~/ }
+    - { src: .gitconfig, dest: ~/ }
+    - { src: .tmux.conf, dest: ~/ }
+    - { src: .vimrc, dest: ~/ }
+    - { src: .zshrc, dest: ~/ }
