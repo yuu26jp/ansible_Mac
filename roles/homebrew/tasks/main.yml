@@ -12,16 +12,15 @@
   tags: homebrew
   homebrew: name={{ item }}
   loop:
-    - ansible
     - awscli
-    - awsebcli
     - docker
     - docker-compose
     - ghq
     - git
+    - gnupg
     - jq
-    - nodebrew
     - peco
+    - pinentry-mac
     - reattach-to-user-namespace
     - telnet
     - tmux

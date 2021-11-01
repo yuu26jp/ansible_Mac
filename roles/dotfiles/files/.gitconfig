@@ -1,6 +1,10 @@
 [user]
   name = yuu26jp
   email = 24243541+yuu26jp@users.noreply.github.com
+  signingkey = 95AF0F01919F689F
+
+[commit]
+  gpgsign = true
 
 [ghq]
   root = ~/GitHub

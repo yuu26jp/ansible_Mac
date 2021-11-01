@@ -6,11 +6,14 @@
   loop:
     - authy
     - bettertouchtool
+    - brave-browser
     - clipy
     - docker
+    - discord
     - font-ricty-diminished
     - google-chrome
     - google-japanese-ime
+    - krisp
     - ngrok
     - sequel-pro
     - slack
