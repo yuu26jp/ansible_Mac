@@ -43,5 +43,5 @@ function ssm-start-session() {
 
   test -z "$instance" && return
   echo "---> $instance"
-  aws ssm-start-session --target "$(echo $instance | awk '{print $1}')"
+  aws ssm start-session --target "$(echo $instance | awk '{print $1}')" --document-name AWS-StartInteractiveCommand --parameters command="cd ~; bash -l"
 }

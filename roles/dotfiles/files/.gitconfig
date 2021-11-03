@@ -6,5 +6,8 @@
 [commit]
   gpgsign = true
 
+[pull]
+  ff = only
+
 [ghq]
   root = ~/GitHub
