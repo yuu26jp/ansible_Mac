@@ -27,3 +27,5 @@
     - tmux
     - watch
     - wget
+    - zplug
+    - zsh-completions
